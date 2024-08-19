@@ -1,0 +1,48 @@
+body {
+  /* background: url("/public/images/background.webp"); */
+  height: 100vh;
+}
+
+.clear-bg {
+  background: url("/public/images/sunny.webp");
+  background-size: cover;
+}
+
+.clouds-bg {
+  background: url("/public/images/cloudy.webp");
+  background-size: cover;
+}
+
+.rain-bg {
+  background: url("/public/images/rainy.webp");
+  background-size: cover;
+}
+
+.snow-bg {
+  background: url("/public/images/snowy.webp");
+  background-size: cover;
+}
+
+.default-bg {
+  background: url("/public/images/background.webp");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.weather-box {
+  border: 3px solid white;
+  padding: 50px;
+  background-color: azure;
+  border-radius: 30px;
+}
+
+.box {
+  margin: 20px;
+}
